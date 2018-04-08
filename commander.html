@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Affable Beans</title>
+</head><!--/head-->
+
+<body>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+
+	<header id="header"><!--header-->
+		
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="images/home/logo.png" alt="" /></a>
+						</div>
+
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="panier.html"><i class="fa fa-shopping-cart"></i> Panier (0)</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+
+	</header><!--/header-->
+	
+	<section id="cart_items">
+		<div class="container">
+			<div class="breadcrumbs">
+				<ol class="breadcrumb">
+					<li><a href="index.html">Home</a></li>
+					<li class="active">Commander</li>
+				</ol>
+			</div><!--/breadcrums-->
+
+			<div class="step-one">
+				<h2 class="heading">Valider ma commande / Mes coordonnées</h2>
+			</div>
+
+			<section id="form"><!--form-->
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-12">
+							<div class="signup-form"><!--sign up form-->
+								
+								<form action="merci.html">
+									<h2>Données de facturation :</h2>
+
+									<input type="text" placeholder="Votre nom & prénom" required="required" />
+									<input type="email" placeholder="Email Address" required="required"/>
+									<input type="text" placeholder="Adresse" required="required"/>
+
+
+									<h2>Modes de paiement</h2>
+									<div class="payment-options">
+										<span>
+											<label><input type="radio" name="mode_paiement" value="1"> Virement bancaire</label>
+										</span>
+										<span>
+											<label><input type="radio" name="mode_paiement" value="2"> Paiement par chèque</label>
+										</span>
+										<span>
+											<label><input type="radio" name="mode_paiement" value="3"> Paypal</label>
+										</span>
+										<br/>
+										<button type="submit" class="btn btn-default">Valider ma commande</button>
+									</div>
+								</form>
+								<p></p>
+							</div><!--/sign up form-->
+						</div>
+					</div>
+				</div>
+			</section><!--/form-->
+
+		</div>
+	</section> <!--/#cart_items-->
+	
+	<footer id="footer"><!--Footer-->
+
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p class="pull-left">Copyright © 20?? Affable Beans.</p>
+					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+				</div>
+			</div>
+		</div>
+		
+	</footer><!--/Footer-->
+	
+
+  
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
